@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice2</title>
+  <link rel="stylesheet" href="practice2.css">
+</head>
+<body>
+  <div class="container">
+    <p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+      Animi praesentium nesciunt sed porro ea iure consequatur fugit officia,<br>
+      quas ducimus itaque obcaecati! Eveniet et sequi dolor, perferendis omnis<br>
+      odit quaerat.</p>
+
+    <div class="controls">
+      <h3>Text Color (RGB):</h3>
+      <div class="rgb-inputs">
+        <input type="number" id="textRed" min="0" max="255" placeholder="R">
+        <input type="number" id="textGreen" min="0" max="255" placeholder="G">
+        <input type="number" id="textBlue" min="0" max="255" placeholder="B">
+      </div>
+
+      <h3>Border Color (RGB):</h3>
+      <div class="rgb-inputs">
+        <input type="number" id="borderRed" min="0" max="255" placeholder="R">
+        <input type="number" id="borderGreen" min="0" max="255" placeholder="G">
+        <input type="number" id="borderBlue" min="0" max="255" placeholder="B">
+      </div>
+
+      <h3>Border Width (px):</h3>
+      <input type="number" id="borderWidth" min="0" placeholder="Width">
+
+      <button onclick="applyStyles()">Apply</button>
+    </div>
+  </div>
+
+  <script src="practice2.js"></script>
+</body>
+</html>
+

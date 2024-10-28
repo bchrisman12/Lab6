@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: .5%;
+    text-align: center;
+}
+
+body{
+    background-image: url(img.1.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+a:link{
+    color: rgb(186, 184, 151);
+}
+
+a:visited{
+    color: yellow;
+}
+
+.video{
+    width: 750px;
+    height: 422px;
+    margin: 0 auto;
+}
+
+p{
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
